@@ -3,7 +3,7 @@
   "setupFiles": [
     "<rootDir>/config/enzyme.js"
   ],
-  "setupFilesAfterEnv": ["<rootDir>/config/jest/jest.setup.js"],
+  "setupFilesAfterEnv": ["<rootDir>/config/jest.setup.js"],
   "testMatch": [ "<rootDir>/**/?(*.)(test).js" ],
   "moduleFileExtensions": ["js", "json"],
   "transformIgnorePatterns": [
