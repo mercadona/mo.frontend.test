@@ -1,13 +1,12 @@
-import React from 'react'
-import { render } from '@testing-library/react'
-import { shallow, mount } from 'enzyme'
+import React from "react";
+import { render } from "@testing-library/react";
 
-import App from './App'
+import App from "./App";
 
 it('should show "Hi"', async () => {
-  const { getByText } = render(<App />)
+  const screen = render(<App />);
 
-  const text = getByText('Hi')
+  const text = screen.getByText("Hi");
 
-  expect(text).toBeInTheDocument()
-})
+  expect(text).toBeInTheDocument();
+});
