@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before you start
+
+Before you start coding, let's guarantee the availability of our environment.
+
+Install the Node Version Manager, [NVM](https://github.com/nvm-sh/nvm), and run the command `nvm use` on this repository (in the location of `.nvmrc` file).
+
+Let's recapitulate:
+
+- install nvm
+- run `nvm use`
+
+Now all it's fine to next steps.
+
 ## Available Scripts
 
 In the project directory, you can run:
